@@ -14,7 +14,7 @@ function App() {
     const filename = e.target[0].value;
 
     async function getData() {
-      const response = await fetch('http://localhost:5000/' + filename, {  //GET request through CORS
+      const response = await fetch('/' + filename, {  //GET request through proxy
         headers: {
           'Content-Type': 'application/json'
         }
