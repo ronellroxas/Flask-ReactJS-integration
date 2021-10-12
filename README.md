@@ -17,4 +17,5 @@ Application handling communication between Flask (backend) and ReactJS (frontend
 4. run using `flask run`.
 
 ## ReactJS Installation
-1. run `npm install`.
+1. Go to `/frontend/my-app` directory.
+2. run `npm install`.
